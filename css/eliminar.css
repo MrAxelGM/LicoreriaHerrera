@@ -1,0 +1,48 @@
+            body {
+                background-image: url(../img/BG_MT.jpg);
+            }
+            
+            table {
+                width: 60%;
+                padding: 20px;
+                background: white;
+                border-radius: 15px;
+                border: 1px solid black;
+                border-spacing: 10px;
+                margin-left: 17em;
+                opacity: 0.9;
+            }
+            
+            th {
+                border: 1px solid #000;
+                padding: 6px;
+                background-color: red;
+            }
+            
+            td {
+                border-bottom: 10px black;
+                padding: 7px;
+                text-align: center;
+                font-family: sans-serif;
+                background-color: white;
+            }
+            
+            #t01 {
+                width: 100%;
+                background-color: #f1f1c1;
+            }
+            
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            
+            .icon-trash-o {
+                color: black;
+                text-decoration: none;
+                font-size: 3vmin;
+            }
+            
+            .icon-trash-o:hover {
+                color: red;
+            }

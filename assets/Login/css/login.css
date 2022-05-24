@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url(..//img/corona.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-attachment: cover;
+}
+
+.container-all {
+    width: 70%;
+    max-width: 700%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.ctn-form {
+    width: 90%;
+    padding: 30px;
+    background: white;
+    border-radius: 15px;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+    color: black;
+}
+
+label {
+    display: block;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 300px;
+    color: black;
+    text-align: center;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 30%;
+    height: 30px;
+    background: white;
+    border: 0px;
+    outline: 0px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    text-align: center;
+}
+
+.ctn-texto {
+    width: 100%;
+    background-image: url(..//img/vinos.jpg);
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    backdrop-filter: edge 17;
+}
+
+.title-description {
+    position: relative;
+    text-align: center;
+    top: 80px;
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.text-description {
+    position: relative;
+    top: 110px;
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.capa {
+    width: 36%;
+    height: 61%;
+    padding: 12px;
+    position: fixed;
+    background: linear-gradient(90deg, #D26522, #A32A17);
+    opacity: 0.8;
+    border-radius: 15px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    color: white;
+    border: 0px;
+    background: linear-gradient(90deg, #A32A17, #D26522);
+    font-weight: 300;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+input[type="submit"]:hover {
+    background: #B5221A;
+}
+
+.text-foot {
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+    color: black;
+    font-weight: 350;
+}
+
+.text-foot a {
+    color: #4250BD;
+    font-weight: 600;
+}

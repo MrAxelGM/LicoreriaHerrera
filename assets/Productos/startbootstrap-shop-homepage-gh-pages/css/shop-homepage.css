@@ -1,0 +1,32 @@
+
+body {
+    padding-top: 56px;
+}
+
+.icon-telephone {
+    font-size: 29px;
+    color: white;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+.icon-telephone:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    font-size: 29px;
+    color: rgb(3, 238, 15);
+    margin-left: 80px;
+    text-decoration: none;
+}
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#024959;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position: fixed;
+	bottom:20px;
+	right:20px;
+}
+

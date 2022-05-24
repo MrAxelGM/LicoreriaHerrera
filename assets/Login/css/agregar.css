@@ -1,0 +1,66 @@
+    /* mejor como el de login cierto, mas elegante*/
+    /*<!-- Porque no tiene conectada la hoja de estilos xd   -->*/
+    
+    body {
+        background-image: url(..//img/cerveza.jpeg);
+        background-position: center;
+        background-size: cover no-repeat;
+    }
+    
+    .contenedor {
+        width: 70%;
+        max-width: 700%;
+        margin: auto;
+        margin-top: 60px;
+        display: flex;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    
+    .ctn-form {
+        width: 90%;
+        padding: 30px;
+        background: white;
+        border-radius: 15px;
+    }
+    
+    label {
+        display: block;
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: 300px;
+        color: black;
+        text-align: center;
+    }
+    
+    input[type="text"] {
+        width: 30%;
+        height: 30px;
+        background: white;
+        border: 0px;
+        outline: 0px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+        color: black;
+        font-size: 20px;
+        position: absolute;
+        text-align: center;
+        margin-left: 13rem;
+        /* pa que se vea pro aveda */
+    }
+    
+    input[type="submit"] {
+        width: 100%;
+        height: 50px;
+        margin-top: 60px;
+        color: white;
+        border: 0px;
+        background: linear-gradient(90deg, #A32A17, #D26522);
+        font-weight: 300;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    
+    input[type="submit"]:hover {
+        cursor: pointer;
+        background: #B5221A;
+    }

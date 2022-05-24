@@ -1,0 +1,63 @@
+body {
+    background-image: url(../img/BG9.jpg);
+}
+
+table {
+    width: 60%;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    border-spacing: 10px;
+    margin-left: 17em;
+    opacity: 0.9;
+}
+
+th {
+    border: 1px solid #000;
+    padding: 6px;
+    background-color: #DE8023;
+}
+
+td {
+    padding: 7px;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+#t01 {
+    width: 100%;
+    background-color: #f1f1c1;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.icon-pencil-square-o {
+    text-decoration: none;
+    font-size: 3vmin;
+    color: #7A9CF5;
+}
+
+.icon-pencil-square-o:hover {
+    color: red;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}

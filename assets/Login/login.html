@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../Login/css/login.css">
+</head>
+
+<body>
+    <div class="container-all">
+        <div class="ctn-form">
+            <img src="img/lico.png" alt="Licoreria Herrera's" class="logo">
+            <h1 class="title">Iniciar Sesión</h1>
+
+            <form action="ProbLogin.php" method="POST">
+                <label for="">Correo Electrónico</label>
+                <input type="email" name="correo" id="correo" placeholder="Ingrese su correo electrónico">
+                <span class="msg-error"></span>
+
+                <label for="">Contraseña</label>
+                <input type="password" name="passwor" id="contraseña" placeholder="Ingrese su contraseña">
+                <span class="msg-error"></span>
+
+                <input name="BtnLog" class="bottons" type="submit" value="Iniciar Sesión">
+            </form>
+            <span class="text-foot"><a href="registro.html">Crear cuenta</a></span>
+        </div>
+        <div class="ctn-texto">
+            <div class="capa"></div>
+            <h1 class="title-description">Vinos y Licores Herrera's</h1>
+            <p class="text-description">Somos una empresa dedicada a la venta de vinos y licores, de diferentes marcas y a un excelente precio.</p>
+        </div>
+    </div>
+
+</body>
+
+</html>

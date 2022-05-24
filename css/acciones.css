@@ -1,0 +1,79 @@
+body {
+    /* margin: 0; */
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background: url(../img/BG_MT.jpg) no-repeat center top;
+}
+
+.form {
+    width: 50%;
+    padding: 30px;
+    height: 80%;
+    margin: 30px;
+    background: linear-gradient(90deg, #F57834, #DE4A23);
+    border-radius: 15px;
+    opacity: 0.8;
+    margin-left: 20em;
+}
+
+.form input[type="text"] {
+    border: none;
+    background: white;
+    border-bottom: 1px solid black;
+    outline: none;
+    width: 100%;
+    color: black;
+    font-size: 1rem;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.form [type="submit"] {
+    border: none;
+    outline: none;
+    height: 2rem;
+    width: 5rem;
+    background: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 1.25rem;
+    position: relative;
+    top: 55%;
+    left: 38%;
+}
+
+.form [type="reset"] {
+    border: none;
+    outline: none;
+    height: 2rem;
+    width: 5rem;
+    background: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 1.25rem;
+    position: relative;
+    top: 55%;
+    left: 38%;
+}
+
+.form input[type="submit"]:hover,
+input[type="reset"]:hover {
+    cursor: pointer;
+    background: #B5221A;
+}
+
+.vlv h3 {
+    color: white;
+}
+
+a {
+    border: none;
+    outline: none;
+    height: 2rem;
+    width: 5rem;
+    background: black;
+    color: white;
+    font-size: 1rem;
+    border-radius: 1.25rem;
+    text-decoration: none;
+}

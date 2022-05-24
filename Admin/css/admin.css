@@ -1,0 +1,31 @@
+.table-container {
+    margin: 1rem;
+}
+
+.table-container {
+    overflow-y: auto;
+}
+
+.icon-wrench {
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.icon-wrench:hover {
+    color: #056b16;
+    text-decoration: none;
+}
+
+.icon-trash-o {
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.icon-trash-o:hover {
+    color: red;
+    text-decoration: none;
+}

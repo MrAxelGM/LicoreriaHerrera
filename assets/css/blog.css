@@ -1,0 +1,48 @@
+#Bienvenidos{
+    background-color: tomato;
+    text-align: center;
+    position: relative;
+    background: transparent;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+#Bienvenidos h2{
+    padding: 15px;
+    text-transform: uppercase;
+}
+
+#blog{
+    margin: 0;
+    padding: 50px;
+    background-image: url(/assets/imagenes/BG5.jpg);
+ 
+}
+
+
+
+#blog h4{
+    text-align: center;
+}
+
+#blog .contenedor{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+text-align: center;
+}
+
+
+#blog article{
+margin: 15px;
+}
+
+#blog img{
+    width: 100%;
+    max-width: 280px;
+}
+
+
+
+
+

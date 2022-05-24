@@ -1,0 +1,398 @@
+    /* Variables */
+    
+     :root {
+        --sombra: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+        --verde-gral: #40094e;
+        --verde-hover: #082503;
+        --verde-active: #f6f6f6;
+        --verde: #07b195;
+        --naranja: #cc9914;
+        --amarillo: #ecc540;
+    }
+    /* Animaciones */
+    
+    @keyframes animacion1 {
+        from {
+            opacity: 0;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    
+    .container {
+        animation-name: animacion1;
+        animation-duration: 2s;
+    }
+    /* Fin de animaciones */
+    /* Estilos Generales */
+    
+    body {
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        background-color: #F3F4F6;
+    }
+    
+    .contenedor-form {
+        min-height: 90vh;
+    }
+    /* Fin estilos Generales */
+    /* Estilos del header */
+    /* Fin de estilos del Header */
+    /* Estilos de los formularios */
+    
+    .formulario {
+        color: black;
+        float: right;
+        background-color: white;
+        padding: 25px;
+        border-radius: 10px;
+        /* box-shadow: var(--sombra); */
+        margin-top: 5px;
+    }
+    
+    .formulario input,
+    .fila-botones input,
+    .volver {
+        border-radius: 80px;
+        border: none;
+        margin-top: 10px;
+        height: 50px;
+        width: 84%;
+    }
+    
+    #consultar {
+        color: #F3F4F6;
+    }
+    
+    .volver {
+        width: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .volver:hover {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .formulario img {
+        width: 25vmin;
+    }
+    
+    label {
+        width: 75%;
+    }
+    
+    label::before {
+        color: #666;
+        margin-right: 5px;
+    }
+    
+    a::before {
+        color: white;
+    }
+    
+    .input {
+        color: #666666;
+        background: #e6e6e6;
+        border-radius: 25px;
+        padding: 0 30px;
+    }
+    
+    .input:focus {
+        transform: scale(1.05);
+        background: #c8c8c8;
+        box-shadow: var(--sombra);
+    }
+    
+    .elemento-form {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .boton {
+        border-radius: 25px;
+        font-weight: 900;
+        background: var(--verde-gral);
+        transition: all 0.4s;
+        color: white;
+        padding: 0 30px;
+    }
+    
+    .boton:hover {
+        transform: scale(1.01);
+        background-color: var(--verde-hover);
+        box-shadow: var(--sombra);
+    }
+    
+    .boton:active {
+        background-color: var(--verde-active);
+    }
+    
+    @media screen and (max-width: 576px) {
+        .titulo {
+            /*display: none;*/
+            font-size: 4vmin;
+        }
+        body {
+            background-color: white;
+        }
+        #consultar {
+            color: black;
+        }
+        .formulario {
+            box-shadow: none;
+        }
+        .formulario input {
+            width: 90%;
+        }
+    }
+    /* Fin de estilos de los formularios */
+    /* Estilos MenÃº */
+    
+    input[type="radio"] {
+        display: none;
+    }
+    
+    .cont-opciones {
+        padding: 20px;
+        height: 40vh;
+        font-size: 2.8vmin;
+        text-align: center;
+    }
+    
+    .opciones label {
+        width: 80vmin;
+        max-width: 90%;
+        height: 20vmin;
+        border-radius: 15px;
+        color: white;
+        background-color: var(--verde);
+    }
+    
+    .opciones label:hover {
+        background: #059980;
+    }
+    
+    .opciones label:hover {
+        box-shadow: var(--sombra);
+        transform: scale(1.005);
+        cursor: pointer;
+    }
+    
+    .opciones label:hover~p {
+        transform: scale(1.09);
+        font-weight: 500;
+    }
+    
+    .p-opciones {
+        width: 25vmin;
+    }
+    
+    .p-opciones label::before {
+        font-size: 8vmin;
+        color: white;
+    }
+    
+    select {
+        width: 30vmin;
+        border-radius: 6px;
+        padding: 5px;
+    }
+    
+    select:hover {
+        box-shadow: var(--sombra);
+        cursor: pointer;
+    }
+    
+    #alta:checked~#lbl-alta,
+    #baja:checked~#lbl-baja,
+    #consulta:checked~#lbl-consulta,
+    #modificar:checked~#lbl-modificar {
+        background-color: var(--amarillo);
+    }
+    
+    #alta:checked~p,
+    #baja:checked~p,
+    #consulta:checked~p,
+    #modificar:checked~p {
+        font-weight: 500;
+    }
+    /* Fin de estilos de MenÃº */
+    /* Estilos de consultas */
+    
+    th {
+        font-size: 2vmin;
+        display: table-cell;
+    }
+    
+    td {
+        width: auto;
+        font-size: 2vmin;
+        display: table-cell;
+    }
+    
+    .content {
+        padding: 1em;
+    }
+    
+    .table {
+        width: 100%;
+        border-spacing: 0;
+    }
+    
+    .table td,
+    .table th {
+        padding: 1em;
+        text-align: left;
+    }
+    
+    .table tr:nth-child(even) {
+        background: rgb(216, 245, 236);
+    }
+    
+    .content {
+        position: relative;
+        /* max-width: 960px; */
+        width: 100%;
+        height: 60vh;
+        background-color: transparent;
+        color: black;
+        border-radius: 4px;
+        padding: 1.8em;
+    }
+    
+    .num-regs {
+        font-size: 2.5vmin;
+    }
+    /* Fin de estilos de consultas */
+    
+    @media screen and (max-width: 768px) {
+        td {
+            display: block;
+            width: 100%;
+            font-size: 3vmin;
+        }
+        td:nth-of-type(1) {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+        th {
+            display: none;
+        }
+        .num-regs {
+            font-size: 4vmin;
+        }
+    }
+    /* Estilos de los botones de las tablas */
+    
+    .boton-tabla {
+        padding: 10px;
+        color: white;
+        border-radius: 50px;
+    }
+    
+    .boton-tabla:hover {
+        transform: scale(1.1);
+        box-shadow: var(--sombra);
+        text-decoration: none;
+        color: white;
+    }
+    
+    .btn-borrar {
+        background-color: #e45042;
+    }
+    
+    .btn-borrar:hover {
+        background-color: #bd2a1d;
+    }
+    
+    .btn-modificar {
+        background-color: var(--amarillo);
+    }
+    
+    .btn-modificar:hover {
+        background-color: var(--naranja);
+    }
+    /* Fin de los Estilos de los botones de las tablas */
+    /* Estilos del botÃ³n de cerrar sesiÃ³n */
+    
+    .cerrar-sesion,
+    .cerrar-sesion::before {
+        color: white;
+        font-size: 30px;
+    }
+    
+    .cerrar-sesion:hover {
+        text-decoration: none;
+        transform: scale(1.1);
+    }
+    /* Fin de estilos de Cerrar SesiÃ³n */
+    
+    .contenedor-tabla div,
+    .contenedor-tabla-2 div {
+        width: 95%;
+        height: 300px;
+        background-color: #e6e6e6;
+        box-shadow: var(--sombra);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .contenedor-tabla-2 div {
+        height: 100%;
+        padding: 20px;
+    }
+    
+    .contenedor-tabla {
+        margin-bottom: 20px;
+    }
+    
+    .opc-tabla img {
+        max-width: 50%;
+    }
+    
+    .opc-tabla-2 {
+        display: flex;
+        width: 100%;
+    }
+    
+    .opc-tabla-2 img {
+        width: 120px;
+        margin-top: 20px;
+    }
+    
+    .btn-tabla {
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btn-tabla:hover {
+        cursor: pointer;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .tablas-titulo {
+        height: 20vh;
+        font-size: 3vmin;
+        text-align: center;
+    }
+    
+    .icon-user {
+        cursor: pointer;
+    }
+    /* article {
+    width: 90%;
+}
